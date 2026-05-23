@@ -1,31 +1,37 @@
 # Simple Student Management System
 
-ይህ ፕሮጀክት ለዎላይታ ሶዶ ዩኒቨርሲቲ (Wolaita Sodo University) የተዘጋጀ የድር ላይ የተመሰረተ (Web-based) የተማሪዎች አስተዳደር ስርዓት ነው።
+A web-based Student Management System developed for **Wolaita Sodo University** (WSU).
 
-## መግለጫ (Description)
-ይህ ሲስተም ተማሪዎች የሚመዘገቡበት፣ የሚገቡበት (Login) እና አስተዳዳሪዎች (Admin) ተማሪዎችንና ኮርሶችን የሚያስተዳድሩበት ስርዓት ነው።
+## Description
+This project is a centralized platform for managing student records, course registration, and administrative tasks. It provides a secure environment for students to register and view their enrolled courses, while administrators can manage the student database, course offerings, and enrollment eligibility based on departments.
 
-## ቁልፍ ባህሪያት (Key Features)
-* **Student Registration:** ተማሪዎች በራሳቸው መመዝገብ ይችላሉ።
-* **Login System:** ለተማሪዎች እና ለአስተዳዳሪዎች የተለየ የLogin ማረጋገጫ አለው።
-* **Course Management:** አስተዳዳሪዎች ኮርሶችን ማከል እና መሰረዝ ይችላሉ።
-* **Enrollment Management:** ተማሪዎችን በየዲፓርትመንታቸው ኮርስ መመደብ።
-* **Secure Database:** የMySQL ዳታቤዝን በመጠቀም መረጃን በአስተማማኝ ሁኔታ ያስቀምጣል።
+## Key Features
+* **Student Registration:** New students can create accounts with department-specific validation.
+* **Role-Based Login:** Separate authentication flows for Students and Administrators.
+* **Course Management:** Admins can add, update, and remove courses from the system.
+* **Departmental Enrollment:** Logic that ensures students can only enroll in courses assigned to their specific department.
+* **Admin Dashboard:** A central hub for managing the entire student body and course catalog.
+* **Responsive UI:** Clean and intuitive interface designed for ease of use.
 
-## ቴክኖሎጂዎች (Technologies Used)
-* **Frontend/Backend:** Java Server Pages (JSP)
+## Technologies Used
+* **Backend:** Java Server Pages (JSP)
 * **Database:** MySQL
 * **Server:** Apache Tomcat
-* **Design:** CSS (Responsive Design)
+* **Frontend:** HTML5, CSS3
 
-## የፕሮጀክቱ ባለቤት (Developer)
-* **ስም:** Chalachew Belay
-* **ዩኒቨርሲቲ:** Wolaita Sodo University
-* **ዲፓርትመንት:** IT Department, 3rd Year
-* **ስልክ ቁጥር:** 0919961315
-* **ኢሜይል:** chalachewbelay43@gmail.com
+## Developer Information
+* **Name:** Chalachew Belay
+* **Institution:** Wolaita Sodo University
+* **Department:** Information Technology (IT), 3rd Year
+* **Phone:** +251 919961315
+* **Email:** chalachewbelay43@gmail.com
 
-## እንዴት ማከናወን እንደሚቻል (Installation)
-1. ፕሮጀክቱን ወደ ኮምፒውተርዎ ይውሰዱ (Clone or Download).
-2. የMySQL ዳታቤዝዎን (`wsu_db`) ይፍጠሩ እና `wsu_db.sql` ፋይልን ያስገቡ።
-3. ፕሮጀክቱን በApache Tomcat ሰርቨር ላይ Run ያድርጉ።
+## Installation Guide
+1. **Clone the repository:** `git clone https://github.com/chacha-it-deve-2018/Simple-Student-Management-System.git`
+2. **Database Setup:** - Create a MySQL database named `wsu_db`.
+   - Import the provided `wsu_db.sql` file into your database.
+3. **Configure Server:** Deploy the project to an Apache Tomcat server via your preferred IDE (Eclipse, IntelliJ, etc.).
+4. **Launch:** Open your browser and navigate to the project URL (e.g., `http://localhost:8080/Simple-Student-Management-System`).
+
+---
+*Developed as part of academic coursework at Wolaita Sodo University.*
